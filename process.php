@@ -14,8 +14,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     echo "Nama: " . $nama . "<br>";
     echo "Email: " . $email;
-} 
+}else {
+    echo "Data tidak ditemukan!";
+}
 ?>
+
+<br><br>
+<a href="index.php">Kembali ke Form</a>
 
 </body>
 </html>
