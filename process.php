@@ -4,28 +4,48 @@
     <title>Hasil Input</title>
 <style>
         body {
-            font-family: Arial;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #4da6ff, #80d0ff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            width: 320px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
             text-align: center;
         }
-        .container {
-            width: 300px;
-            margin: auto;
+
+        h2 {
+            margin-bottom: 20px;
         }
+
         input, textarea {
-            width: 100%;
-            margin: 5px 0;
-            padding: 8px;
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: #f9f9f9;
         }
-        button {
-            padding: 8px 15px;
-            background-color: #4da6ff;
-            border: none;
-            color: white;
-            border-radius: 10px;
+
+        textarea {
+            resize: none;
         }
+
         .result {
-            margin-top: 20px;
+            margin-top: 15px;
             text-align: left;
+            font-size: 14px;
+        }
+
+        .result p {
+            margin: 5px 0;
         }
     </style>
 </head>
