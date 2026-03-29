@@ -2,25 +2,16 @@
 <html>
 <head>
     <title>Hasil Input</title>
+
 </head>
 <body>
 
-<h2>Hasil Input</h2>
+<h2>Form Output</h2>
 
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nama = $_POST['nama'];
-    $email = $_POST['email'];
+<div class="container">
 
-    echo "Nama: " . $nama . "<br>";
-    echo "Email: " . $email;
-}else {
-    echo "Data tidak ditemukan!";
-}
-?>
 
-<br><br>
-<a href="index.php">Kembali ke Form</a>
+</div>
 
 </body>
 </html>
